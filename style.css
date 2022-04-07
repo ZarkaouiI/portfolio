@@ -155,7 +155,7 @@ li a {
     /*if space makafyach l 3 dir ghir 1...*/
 }
 
-.office-project {
+.first-project {
     width: 300px;
     height: 400px;
     background: #fff;
@@ -168,7 +168,7 @@ li a {
     background-position: center;
 }
 
-.store-project {
+.second-project {
     width: 300px;
     height: 400px;
     background: #fff;
@@ -181,7 +181,7 @@ li a {
     background-position: center;
 }
 
-.sport-project {
+.third-project {
     width: 300px;
     height: 400px;
     background: #fff;
@@ -200,6 +200,7 @@ li a {
     width: 100%;
     z-index: 2;
     left: 0;
+    text-align: center;
     bottom: 0;
     background-color: #fff;
     overflow: hidden;
@@ -291,7 +292,7 @@ li a {
     ul {
         background-color: rgba(0, 0, 0, 0.625)
     }
-    .office-project {
+    .first-project {
         width: 250px;
         height: 400px;
         background: #fff;
@@ -303,7 +304,7 @@ li a {
         background-size: cover;
         background-position: center;
     }
-    .store-project {
+    .second-project {
         width: 250px;
         height: 400px;
         background: #fff;
@@ -315,7 +316,7 @@ li a {
         background-size: cover;
         background-position: center;
     }
-    .sport-project {
+    .third-project {
         width: 250px;
         height: 400px;
         background: #fff;
