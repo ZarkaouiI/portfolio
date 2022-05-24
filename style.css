@@ -251,7 +251,7 @@ li a {
 .about-image {
     height: 450px;
     width: 400px;
-    background-image: url(/images/Mee.jpg);
+    background-image: url(/images/me.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -262,6 +262,54 @@ li a {
     font-size: 1.5rem;
     margin-left: 100px;
 }
+
+
+/* Email me section */
+
+.email-me {
+    display: flex;
+    align-items: center;
+    justify-content: wrap;
+    width: 600px;
+    height: 400px;
+}
+
+.your-name {
+    width: 90%;
+    height: 50px;
+}
+
+.your-email {
+    width: 90%;
+    height: 50px;
+}
+
+.your-message {
+    width: 90%;
+    height: 70px;
+    max-width: 600px;
+    /*matb9ach t stretcha !*/
+}
+
+div input,
+div textarea {
+    margin: 1.5em 30px;
+}
+
+.send-button {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid var(--blue-text);
+}
+
+.send-button:hover {
+    background-color: rgb(100, 100, 100, 0.4);
+}
+
+
+/*End email me section*/
 
 .social-icons {
     display: flex;
